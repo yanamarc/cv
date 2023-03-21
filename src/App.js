@@ -18,7 +18,6 @@ function App() {
                     <header className="App--CV-header">
                         <h1>{data.bio.name}</h1>
                         <div className="App--header-infoBox">
-                            <h2>{data.bio.years}</h2>
                             <span>{data.bio.location}</span>
                             <span>{data.bio.email}</span>
                         </div>

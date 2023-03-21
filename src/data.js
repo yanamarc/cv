@@ -3,8 +3,7 @@ const data = {
         "name": "Yana Markovets",
         "position": "Frontend developer",
         "email": "yana.mars.pl@gmail.com",
-        "info": "Hello, I’m a frontend developer with 3 years of experience, with a great desire to grow and develop in the frontend. I’m a good team player with upper-intermediate English. Also I keep improving my skills on Udemy and I'm open to new challenges and interesting projects!",
-        "years": "3+",
+        "info": "Hello, I’m a frontend developer with 3+ years of experience, with a great desire to grow and develop in the frontend. I’m a good team player with upper-intermediate English. Also I keep improving my skills on Udemy and I'm open to new challenges and interesting projects!",
         "location": "Warsaw, Poland"
     },
     "social":{
