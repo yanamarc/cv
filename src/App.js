@@ -2,9 +2,17 @@ import './App.css';
 import React from 'react';
 import data from "./data.js"
 
+import {ReactComponent as IconLinked} from "./icons/linkedin.svg"
+import {ReactComponent as IconPrint} from "./icons/printer.svg"
+
 function App() {
   return (
       <div className="App">
+        <div className="App--actions">
+          <a className="App--actions-link" href={data.social.linkedin} target="_blank"
+             rel="noreferrer"><IconLinked/></a>
+          <button onClick={() => window.print()}><IconPrint/></button>
+        </div>
         <div className="App--CV">
           <div className="App--CV-container">
             <header className="App--CV-header">

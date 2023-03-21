@@ -191,3 +191,58 @@ button:hover, a:hover {
   text-align: left;
   margin-bottom: 25px;
 }
+
+@media only screen and (max-width: 900px) and (min-width: 320px) {
+
+  .App{
+    align-items: flex-start;
+  }
+
+  .App--header-infoBox{
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .App--CV-main {
+    flex-direction: column;
+  }
+
+  .App--actions {
+    display: none;
+  }
+
+  .App--CV-main > section {
+    width: 100% !important;
+    padding-left: 0 !important;
+  }
+
+
+  ul {
+    max-height: 200px;
+  }
+
+  ul > li {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+}
+
+@media print {
+  @page {
+    background-image: none;
+    background-color: white;
+    size: 210mm 297mm;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .App--CV {
+    padding: 67px 10px;
+    margin: 0;
+  }
+
+  .App--actions {
+    display: none;
+  }
+}
