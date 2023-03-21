@@ -1,248 +1,251 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'Inter', sans-serif;
-  color: #101010;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: #101010;
+    box-sizing: border-box;
 }
 
 h1 {
-  font-weight: 600;
-  font-size: calc(16px + 2vmin);
-  line-height: 48px;
-  letter-spacing: -0.5px;
+    font-weight: 600;
+    font-size: calc(16px + 2vmin);
+    line-height: 48px;
+    letter-spacing: -0.5px;
 }
 
 h2 {
-  font-weight: 600;
-  font-size: calc(9px + 2vmin);
-  line-height: 30px;
+    font-weight: 600;
+    font-size: calc(9px + 2vmin);
+    line-height: 30px;
 }
 
 h3 {
-  font-weight: 600;
-  font-size: calc(12px + 1vmin);
-  line-height: 28px;
-  text-transform: capitalize;
-  margin-bottom: 20px;
+    font-weight: 600;
+    font-size: calc(12px + 1vmin);
+    line-height: 28px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
 }
 
 h4 {
-  font-weight: 700;
-  font-size: calc(10px + 1vmin);
-  line-height: calc(14px + 1vmin);
-  text-transform: capitalize;
+    font-weight: 700;
+    font-size: calc(10px + 1vmin);
+    line-height: calc(14px + 1vmin);
+    text-transform: capitalize;
 }
 
 ul {
-  list-style: none;
-  padding-left: 0;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  height: 100%;
-  gap: 3px;
-  max-height: 350px;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+    gap: 3px;
+    max-height: 250px;
 }
 
 ul > li {
-  max-width: 100px;
-  margin-right: 24px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+    max-width: 100px;
+    margin-right: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 span {
-  font-weight: 700;
-  font-size: calc(8px + 1vmin);
-  line-height: 16px;
-  letter-spacing: -0.2px;
+    font-weight: 700;
+    font-size: calc(8px + 1vmin);
+    line-height: 16px;
+    letter-spacing: -0.2px;
 }
 
 p {
-  font-weight: 400;
-  font-size: calc(6px + 1vmin);
-  line-height: calc(12px + 1vmin);
+    font-weight: 400;
+    font-size: calc(6px + 1vmin);
+    line-height: calc(12px + 1vmin);
 }
 
 button:hover, a:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 .App--header-infoBox {
-  flex: 1 1 100%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  gap: 39px;
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 39px;
 }
 
 .App--header-infoBox:first-child {
-  min-width: 83px;
+    min-width: 83px;
 }
 
 
 .App {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  gap: 50px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 50px;
 }
 
 .App--actions {
-  display: flex;
-  gap: 35px;
-  margin-left: 4%;
-  flex-direction: column;
+    display: flex;
+    gap: 35px;
+    margin-left: 4%;
+    flex-direction: column;
 }
 
 .App--actions > button, .App--actions-link {
-  width: 90px;
-  height: 90px;
-  background-color: white;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .App--actions-link {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .App--CV {
-  text-align: center;
-  width: 100%;
-  background: url(bg.svg) no-repeat;
-  background-size: 2790px auto;
-  padding: 64px 0;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  max-width: 1440px;
+    text-align: center;
+    width: 100%;
+    background: url(bg.svg) no-repeat;
+    background-size: 2550px auto;
+    padding: 64px 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    max-width: 1440px;
 }
 
 .App--CV-container {
-  background-color: rgba(152, 204, 253, 0.2);
-  margin: 0 6%;
-  padding: 4% 5%;
+    background-color: rgba(152, 204, 253, 0.2);
+    margin: 0 6%;
+    padding: 5%;
+    height: 100%;
 }
 
 .App--CV-header {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
 }
 
-
 .App--CV-main {
-  display: flex;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  width: 100%;
-  padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    width: 100%;
+    padding-top: 30px;
 }
 
 .App--CV-main > section:first-child {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-  text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: left;
 }
 
 .App--CV-main > section:last-child {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  text-align: left;
-  padding-left: 90px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: left;
+    padding-left: 90px;
 }
 
 .App--experience {
-  gap: 10px;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 23px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 23px;
 }
 
 .App--experience-place {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  text-align: left;
-  gap: 22px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    text-align: left;
+    gap: 22px;
 }
 
 .App--experience-desc > p:first-child {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .App--education {
-  gap: 10px;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  margin-bottom: 25px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 25px;
 }
 
 @media only screen and (max-width: 900px) and (min-width: 320px) {
 
-  .App{
-    align-items: flex-start;
-  }
+    .App {
+        align-items: flex-start;
+    }
 
-  .App--header-infoBox{
-    flex-direction: column;
-    gap: 5px;
-  }
+    .App--header-infoBox {
+        flex-direction: column;
+        gap: 5px;
+    }
 
-  .App--CV-main {
-    flex-direction: column;
-  }
+    .App--CV-main {
+        flex-direction: column;
+    }
 
-  .App--actions {
-    display: none;
-  }
+    .App--actions {
+        display: none;
+    }
 
-  .App--CV-main > section {
-    width: 100% !important;
-    padding-left: 0 !important;
-  }
+    .App--CV-main > section {
+        width: 100% !important;
+        padding-left: 0 !important;
+    }
 
 
-  ul {
-    max-height: 200px;
-  }
+    ul {
+        max-height: 200px;
+    }
 
-  ul > li {
-    font-size: 12px;
-    line-height: 15px;
-  }
+    ul > li {
+        font-size: 12px;
+        line-height: 15px;
+    }
 
 }
 
 @media print {
-  @page {
-    background-image: none;
-    background-color: white;
-    size: 210mm 297mm;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
+    @page {
+        size: 210mm 297mm;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
 
-  .App--CV {
-    padding: 67px 10px;
-    margin: 0;
-  }
+    .App--CV {
+        padding: 35px 10px;
+        margin: 0;
+        width: 100%;
+        background-size: 2590px auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
 
-  .App--actions {
-    display: none;
-  }
+    .App--actions {
+        display: none;
+    }
 }
