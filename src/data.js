@@ -13,7 +13,7 @@ const data = {
         {
             "name": "Reductions Privees",
             "stack": "NextJS, Redux, i18n, Highcharts, Slick, SCSS, Typescript, GraphQL, Hygraph, Jest, React Native (app integration), PaymentJs",
-            "description": "Reductions Privees grop of applications for admins and users. It is a system for providing discounts for customers and businesses with full information tracking. Full redesign of one of the application.",
+            "description": "Reductions Privees group of applications for admins and users with different purpose and functionallity. It is a system for providing discounts for customers and businesses with full information tracking with a lot of forms, tables and charts. Full redesign of one of the application.",
             "date": "2022  - Present",
         },
         {
