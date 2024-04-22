@@ -32,4 +32,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - run: npm ci
-      - run: npm run deploy
+      - run: npm run build
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: './build'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
