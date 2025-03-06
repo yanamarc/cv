@@ -3,8 +3,8 @@ const data = {
         "name": "Yana Markovets",
         "position": "Frontend developer",
         "email": "yana.mars.pl@gmail.com",
-        "info": "Hello, I’m a frontend developer with 4+ years of experience, with a great desire to grow and develop in the frontend. I’m a good team player with upper-intermediate English. Also I keep improving my skills on Udemy and I'm open to new challenges and interesting projects!",
-        "location": "Gdynia, Poland"
+        "info": "Hello, I’m a frontend developer with 5+ years of experience, with a great desire to grow and develop in the frontend. I’m a good team player with upper-intermediate English. Also I keep improving my skills on Udemy and I'm open to new challenges and interesting projects!",
+        "location": "Gdansk, Poland"
     },
     "social":{
         linkedin: "https://www.linkedin.com/in/yana-markovets/"
@@ -12,7 +12,7 @@ const data = {
     "experience": [
         {
             "name": "Reductions Privees",
-            "stack": "NextJS, Redux, i18n, Highcharts, Slick, SCSS, Typescript, GraphQL, Hygraph, Jest, React Native (app integration), PaymentJs",
+            "stack": "NextJS, Redux, i18n, Highcharts, Slick, SCSS, Typescript, GraphQL, Hygraph, Jest, React Native (app integration), Stripe and Ixopay integration",
             "description": "Reductions Privees group of applications for admins and users with different purpose and functionallity. It is a system for providing discounts for customers and businesses with full information tracking with a lot of forms, tables and charts. Full redesign of one of the application.",
             "date": "2022  - Present",
         },
